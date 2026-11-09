@@ -1,0 +1,23 @@
+name: validate
+
+on:
+  pull_request:
+    paths:
+      - "software.json"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: JSON valide
+        run: jq empty software.json
+      - name: Champs obligatoires
+        run: |
+          jq -e 'type=="array" and all(.[]; has("id") and has("name") and has("category") and has("description") and has("homepage"))' software.json
+      - name: Identifiants uniques
+        run: |
+          jq -e '([.[].id] | length) == ([.[].id] | unique | length)' software.json
+      - name: Méthode d’installation connue
+        run: |
+          jq -e 'all(.[]; .type == "webtool" or (.install.method == "github" or .install.method == "page"))' software.json
