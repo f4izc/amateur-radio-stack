@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amateur Radio Stack : logiciels radioamateur pour Windows</title>
+<meta name="description" content="Sélection de logiciels radioamateur pour Windows 10/11, avec liens vers la dernière version et un script d’installation à menu.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #eef1f0;
+    --surface: #f8faf9;
+    --ink: #12212a;
+    --muted: #485a63;
+    --rule: #c5cfd3;
+    --accent: #0b5fa5;
+    --accent-ink: #ffffff;
+    --lcd-bg: #dfe9b0;
+    --lcd-ink: #1f2a0c;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1a20;
+      --surface: #162329;
+      --ink: #e6edef;
+      --muted: #9db0b8;
+      --rule: #2b3d45;
+      --accent: #6db3f2;
+      --accent-ink: #0b1a24;
+      --lcd-bg: #2b3320;
+      --lcd-ink: #d3e8a0;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Bricolage Grotesque", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 17px;
+    line-height: 1.55;
+  }
+  a { color: var(--accent); }
+  :focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+
+  header.hero { padding: 56px 0 40px; border-bottom: 1px solid var(--rule); }
+  h1 {
+    font-size: clamp(2rem, 5vw, 3.4rem);
+    line-height: 1.05;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin: 0 0 16px;
+    max-width: 18ch;
+  }
+  .lead { max-width: 56ch; color: var(--muted); margin: 0 0 28px; }
+
+  .cmd {
+    display: flex;
+    align-items: stretch;
+    max-width: 820px;
+    border: 2px solid var(--ink);
+    background: var(--surface);
+  }
+  .cmd code {
+    flex: 1;
+    min-width: 0;
+    padding: 14px 16px;
+    overflow-x: auto;
+    white-space: nowrap;
+    font-family: Consolas, "Cascadia Mono", monospace;
+    font-size: 0.95rem;
+  }
+  .cmd button {
+    border: 0;
+    border-left: 2px solid var(--ink);
+    background: var(--ink);
+    color: var(--bg);
+    font: inherit;
+    font-weight: 600;
+    padding: 0 22px;
+    cursor: pointer;
+  }
+  .cmd button:hover { background: var(--accent); color: var(--accent-ink); }
+  .cmd-note { margin: 12px 0 0; font-size: 0.92rem; color: var(--muted); max-width: 70ch; }
+
+  .shell {
+    display: grid;
+    grid-template-columns: 210px minmax(0, 1fr);
+    gap: 48px;
+    padding-top: 32px;
+    padding-bottom: 64px;
+  }
+  nav.cats { position: sticky; top: 24px; align-self: start; }
+  nav.cats ul { list-style: none; margin: 0; padding: 0; }
+  nav.cats a {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 7px 0;
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+  }
+  nav.cats a:hover { color: var(--accent); }
+  nav.cats .n { color: var(--muted); font-variant-numeric: tabular-nums; }
+
+  .search { margin-bottom: 8px; }
+  .search input {
+    width: 100%;
+    font: inherit;
+    padding: 12px 14px;
+    border: 1px solid var(--rule);
+    background: var(--surface);
+    color: var(--ink);
+  }
+
+  section.cat { padding-top: 32px; }
+  section.cat h2 { font-size: 1.5rem; margin: 0 0 4px; letter-spacing: -0.01em; }
+  section.cat .sub { margin: 0 0 8px; color: var(--muted); font-size: 0.95rem; max-width: 62ch; }
+
+  .app {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 12px 24px;
+    padding: 18px 0;
+    border-top: 1px solid var(--rule);
+  }
+  .app h3 { margin: 0; font-size: 1.15rem; font-weight: 600; }
+  .lic { margin-left: 8px; font-size: 0.85rem; font-weight: 400; color: var(--muted); }
+  .desc { margin: 2px 0 8px; color: var(--muted); max-width: 62ch; }
+  .meta { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; font-size: 0.88rem; color: var(--muted); }
+  .lcd {
+    background: var(--lcd-bg);
+    color: var(--lcd-ink);
+    padding: 1px 8px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+  .actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: flex-start; justify-content: flex-end; }
+  .btn {
+    display: inline-block;
+    padding: 9px 16px;
+    text-decoration: none;
+    font-weight: 600;
+    border: 2px solid var(--accent);
+    color: var(--accent);
+    white-space: nowrap;
+  }
+  .btn.primary { background: var(--accent); color: var(--accent-ink); }
+  .btn:hover { filter: brightness(1.1); }
+
+  .empty { padding: 32px 0; color: var(--muted); }
+  footer { border-top: 1px solid var(--rule); padding: 24px 0 48px; color: var(--muted); font-size: 0.92rem; }
+  footer p { max-width: 75ch; margin: 0 0 8px; }
+
+  @media (max-width: 820px) {
+    .shell { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+    nav.cats { position: static; }
+    nav.cats ul { display: flex; flex-wrap: wrap; gap: 8px; }
+    nav.cats a { border: 1px solid var(--rule); padding: 6px 12px; gap: 8px; }
+    .app { grid-template-columns: minmax(0, 1fr); }
+    .actions { justify-content: flex-start; }
+    .cmd { flex-direction: column; }
+    .cmd button { border-left: 0; border-top: 2px solid var(--ink); padding: 12px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>Logiciels radioamateur pour Windows</h1>
+    <p class="lead">Ma sélection, avec le lien de la dernière version quand elle est publiée sur GitHub. Tu peux aussi tout installer depuis un menu PowerShell.</p>
+    <div class="cmd">
+      <code id="cmd">irm https://f4izc.github.io/amateur-radio-stack/install.ps1 | iex</code>
+      <button id="copy" type="button">Copier</button>
+    </div>
+    <p class="cmd-note">Ouvre PowerShell, colle la commande, puis coche les logiciels voulus. Tu préfères relire avant d’exécuter ? <a href="install.ps1">Télécharge install.ps1</a> et ouvre-le dans un éditeur.</p>
+  </div>
+</header>
+
+<main class="wrap shell">
+  <nav class="cats" aria-label="Catégories"><ul id="nav"></ul></nav>
+  <div>
+    <div class="search">
+      <input id="q" type="search" placeholder="Rechercher un logiciel" aria-label="Rechercher un logiciel">
+    </div>
+    <div id="list" aria-live="polite"><p class="empty">Chargement du catalogue…</p></div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Les liens pointent vers les sources officielles : aucun logiciel n’est hébergé ici. Chaque logiciel reste soumis à sa propre licence, certains sont payants ou en shareware.</p>
+    <p><span id="updated"></span> <a href="https://github.com/f4izc/amateur-radio-stack/issues/new/choose">Proposer un logiciel</a> · <a href="https://github.com/f4izc/amateur-radio-stack">Code source</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var catalog = [];
+  var versions = {};
+
+  function h(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  function link(label, url, cls) {
+    var a = h('a', 'btn' + (cls ? ' ' + cls : ''), label);
+    a.href = url;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    return a;
+  }
+  function slug(s) {
+    return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  }
+  function fmtDate(iso) {
+    var d = new Date(iso);
+    return isNaN(d) ? '' : d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
+  }
+
+  function resolve(app) {
+    if (!app.github) return null;
+    var v = versions[app.github];
+    if (!v || !v.tag) return null;
+    var asset = null;
+    if (app.asset_regex) {
+      var re = new RegExp(app.asset_regex, 'i');
+      var found = (v.assets || []).filter(function (a) { return re.test(a.name); });
+      found.sort(function (a, b) {
+        var pa = /setup|install/i.test(a.name) ? 0 : 1;
+        var pb = /setup|install/i.test(b.name) ? 0 : 1;
+        return pa - pb || a.name.localeCompare(b.name);
+      });
+      asset = found[0] || null;
+    }
+    return { tag: v.tag, date: v.date, release: v.url, asset: asset };
+  }
+
+  function row(app) {
+    var r = resolve(app);
+    var el = h('article', 'app');
+    var main = h('div');
+    var title = h('h3', null, app.name);
+    if (app.license) title.appendChild(h('span', 'lic', app.license));
+    main.appendChild(title);
+    main.appendChild(h('p', 'desc', app.description));
+
+    var meta = h('div', 'meta');
+    if (r) {
+      meta.appendChild(h('span', 'lcd', r.tag));
+      if (r.date) meta.appendChild(h('span', null, 'publiée le ' + fmtDate(r.date)));
+    } else if (app.github) {
+      meta.appendChild(h('span', null, 'Version : voir la page des releases'));
+    } else {
+      meta.appendChild(h('span', null, 'Version : voir le site officiel'));
+    }
+    if (app.type !== 'webtool' && app.install) {
+      meta.appendChild(h('span', null, app.install.method === 'github'
+        ? 'Script : installation automatique'
+        : 'Script : ouvre la page officielle'));
+    }
+    main.appendChild(meta);
+
+    var actions = h('div', 'actions');
+    if (app.type === 'webtool') {
+      actions.appendChild(link('Voir le projet', app.homepage, 'primary'));
+      if (r && r.release) actions.appendChild(link('Dernière release', r.release));
+    } else if (r && r.asset) {
+      actions.appendChild(link('Télécharger', r.asset.url, 'primary'));
+      actions.appendChild(link('Site officiel', app.homepage));
+    } else if (r && r.release) {
+      actions.appendChild(link('Voir la release', r.release, 'primary'));
+      actions.appendChild(link('Site officiel', app.homepage));
+    } else {
+      actions.appendChild(link('Page de téléchargement', app.homepage, 'primary'));
+    }
+    el.appendChild(main);
+    el.appendChild(actions);
+    return el;
+  }
+
+  function render() {
+    var q = document.getElementById('q').value.trim().toLowerCase();
+    var list = document.getElementById('list');
+    var nav = document.getElementById('nav');
+    list.textContent = '';
+    nav.textContent = '';
+
+    var order = [];
+    var groups = {};
+    catalog.forEach(function (a) {
+      var hay = [a.name, a.description, a.category].join(' ').toLowerCase();
+      if (q && hay.indexOf(q) === -1) return;
+      if (!groups[a.category]) { groups[a.category] = []; order.push(a.category); }
+      groups[a.category].push(a);
+    });
+
+    // Les webtools passent en dernier
+    order.sort(function (a, b) {
+      return (a === 'Webtools' ? 1 : 0) - (b === 'Webtools' ? 1 : 0);
+    });
+
+    if (!order.length) {
+      var p = h('p', 'empty', q ? 'Aucun logiciel ne correspond à « ' + q + ' ». ' : 'Le catalogue est vide. ');
+      var a = h('a', null, 'Proposer un logiciel');
+      a.href = 'https://github.com/f4izc/amateur-radio-stack/issues/new/choose';
+      p.appendChild(a);
+      list.appendChild(p);
+      return;
+    }
+
+    order.forEach(function (cat) {
+      var id = 'cat-' + slug(cat);
+      var sec = h('section', 'cat');
+      sec.id = id;
+      sec.appendChild(h('h2', null, cat));
+      if (cat === 'Webtools') {
+        sec.appendChild(h('p', 'sub', 'Applications web (PHP, Docker…) à héberger soi-même. Le script d’installation Windows ne les installe pas.'));
+      }
+      groups[cat].forEach(function (app) { sec.appendChild(row(app)); });
+      list.appendChild(sec);
+
+      var li = h('li');
+      var a = h('a');
+      a.href = '#' + id;
+      a.appendChild(h('span', null, cat));
+      a.appendChild(h('span', 'n', String(groups[cat].length)));
+      li.appendChild(a);
+      nav.appendChild(li);
+    });
+  }
+
+  function load(url, fallback) {
+    return fetch(url, { cache: 'no-cache' })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .catch(function () { return fallback; });
+  }
+
+  // Commande affichée : suit l’URL réelle de la page
+  var base = location.href.replace(/[#?].*$/, '').replace(/[^\/]*$/, '');
+  if (/^https?:/.test(base)) {
+    document.getElementById('cmd').textContent = 'irm ' + base + 'install.ps1 | iex';
+  }
+
+  document.getElementById('copy').addEventListener('click', function () {
+    var btn = this;
+    var text = document.getElementById('cmd').textContent;
+    var done = function () {
+      btn.textContent = 'Copié';
+      setTimeout(function () { btn.textContent = 'Copier'; }, 2000);
+    };
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(text).then(done, function () {});
+    }
+  });
+
+  document.getElementById('q').addEventListener('input', render);
+
+  Promise.all([load('software.json', null), load('versions.json', {})]).then(function (res) {
+    if (!res[0]) {
+      document.getElementById('list').textContent = '';
+      document.getElementById('list').appendChild(h('p', 'empty', 'Impossible de charger le catalogue. Recharge la page dans un instant.'));
+      return;
+    }
+    catalog = res[0];
+    versions = res[1] || {};
+    if (versions._updated) {
+      document.getElementById('updated').textContent = 'Versions mises à jour le ' + fmtDate(versions._updated) + '.';
+    }
+    render();
+  });
+})();
+</script>
+</body>
+</html>

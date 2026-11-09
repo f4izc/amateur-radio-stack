@@ -1,0 +1,136 @@
+[
+  {
+    "id": "sdrconsole",
+    "name": "SDR Console",
+    "category": "SDR et récepteurs",
+    "description": "Application de réception et d’émission SDR multi-matériels (v3).",
+    "license": "Gratuit",
+    "homepage": "https://www.sdr-radio.com/",
+    "install": { "method": "page" }
+  },
+  {
+    "id": "sdrangel",
+    "name": "SDRangel",
+    "category": "SDR et récepteurs",
+    "description": "Logiciel SDR modulaire : réception, émission et nombreux modes numériques.",
+    "license": "Open source",
+    "homepage": "https://github.com/f4exb/sdrangel",
+    "github": "f4exb/sdrangel",
+    "asset_regex": "\\.exe$",
+    "install": { "method": "github", "silent_args": "" }
+  },
+  {
+    "id": "thetis-hl2",
+    "name": "Thetis (Hermes Lite 2)",
+    "category": "SDR et récepteurs",
+    "description": "Thetis adapté au Hermes Lite 2, utilisé pour le SquareSDR.",
+    "license": "Open source",
+    "homepage": "https://github.com/mi0bot/OpenHPSDR-Thetis",
+    "github": "mi0bot/OpenHPSDR-Thetis",
+    "prerelease": true,
+    "asset_regex": "\\.exe$",
+    "install": { "method": "github", "silent_args": "" }
+  },
+  {
+    "id": "wsjtx",
+    "name": "WSJT-X",
+    "category": "Modes numériques",
+    "description": "FT8, FT4, JT65, MSK144 et autres modes faible signal.",
+    "license": "Open source",
+    "homepage": "https://wsjt.sourceforge.io/wsjtx.html",
+    "install": { "method": "page" }
+  },
+  {
+    "id": "js8call",
+    "name": "JS8Call",
+    "category": "Modes numériques",
+    "description": "Messagerie et relais en mode JS8, basé sur la technologie de WSJT-X.",
+    "license": "Open source",
+    "homepage": "https://js8call.com/",
+    "install": { "method": "page" }
+  },
+  {
+    "id": "fldigi",
+    "name": "fldigi",
+    "category": "Modes numériques",
+    "description": "Modem multi-modes (PSK, RTTY, Olivia, MFSK…) pour la carte son.",
+    "license": "Open source",
+    "homepage": "https://sourceforge.net/projects/fldigi/files/fldigi/",
+    "install": { "method": "page" }
+  },
+  {
+    "id": "flmsg",
+    "name": "flmsg",
+    "category": "Modes numériques",
+    "description": "Formulaires et messages structurés, compagnon de fldigi.",
+    "license": "Open source",
+    "homepage": "https://sourceforge.net/projects/fldigi/files/flmsg/",
+    "install": { "method": "page" }
+  },
+  {
+    "id": "varahf",
+    "name": "VARA HF",
+    "category": "Modems et Winlink",
+    "description": "Modem HF rapide, utilisé avec Winlink Express.",
+    "license": "Shareware",
+    "homepage": "https://rosmodem.wordpress.com/",
+    "install": { "method": "page" }
+  },
+  {
+    "id": "varafm",
+    "name": "VARA FM",
+    "category": "Modems et Winlink",
+    "description": "Modem VHF/UHF pour liaisons FM, utilisé avec Winlink Express.",
+    "license": "Shareware",
+    "homepage": "https://rosmodem.wordpress.com/",
+    "install": { "method": "page" }
+  },
+  {
+    "id": "varasat",
+    "name": "VARA SAT",
+    "category": "Modems et Winlink",
+    "description": "Modem VARA pour liaisons satellite.",
+    "license": "Shareware",
+    "homepage": "https://rosmodem.wordpress.com/",
+    "install": { "method": "page" }
+  },
+  {
+    "id": "winlink",
+    "name": "Winlink Express",
+    "category": "Modems et Winlink",
+    "description": "Client e-mail radio du réseau Winlink.",
+    "license": "Gratuit",
+    "homepage": "https://winlink.org/WinlinkExpress",
+    "install": { "method": "page" }
+  },
+  {
+    "id": "flrig",
+    "name": "flrig",
+    "category": "Contrôle et log",
+    "description": "Contrôle CAT des transceivers, compagnon de fldigi.",
+    "license": "Open source",
+    "homepage": "https://sourceforge.net/projects/fldigi/files/flrig/",
+    "install": { "method": "page" }
+  },
+  {
+    "id": "waveloggate",
+    "name": "WaveLogGate",
+    "category": "Contrôle et log",
+    "description": "Passerelle entre les logiciels radio (CAT, UDP) et Wavelog.",
+    "license": "Open source",
+    "homepage": "https://github.com/wavelog/WaveLogGate",
+    "github": "wavelog/WaveLogGate",
+    "asset_regex": "\\.exe$",
+    "install": { "method": "github", "silent_args": "" }
+  },
+  {
+    "id": "wavelog",
+    "name": "Wavelog",
+    "category": "Webtools",
+    "type": "webtool",
+    "description": "Log radioamateur en ligne, à héberger soi-même (PHP, Docker).",
+    "license": "Open source",
+    "homepage": "https://github.com/wavelog/wavelog",
+    "github": "wavelog/wavelog"
+  }
+]
