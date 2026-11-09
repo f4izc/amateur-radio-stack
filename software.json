@@ -6,7 +6,9 @@
     "description": "Application de réception et d’émission SDR multi-matériels (v3).",
     "license": "Gratuit",
     "homepage": "https://www.sdr-radio.com/",
-    "install": { "method": "page" }
+    "install": {
+      "method": "page"
+    }
   },
   {
     "id": "sdrangel",
@@ -17,7 +19,10 @@
     "homepage": "https://github.com/f4exb/sdrangel",
     "github": "f4exb/sdrangel",
     "asset_regex": "\\.exe$",
-    "install": { "method": "github", "silent_args": "" }
+    "install": {
+      "method": "github",
+      "silent_args": ""
+    }
   },
   {
     "id": "thetis-hl2",
@@ -28,8 +33,11 @@
     "homepage": "https://github.com/mi0bot/OpenHPSDR-Thetis",
     "github": "mi0bot/OpenHPSDR-Thetis",
     "prerelease": true,
-    "asset_regex": "\\.exe$",
-    "install": { "method": "github", "silent_args": "" }
+    "asset_regex": "\\.(exe|msi)$",
+    "install": {
+      "method": "github",
+      "silent_args": ""
+    }
   },
   {
     "id": "wsjtx",
@@ -38,7 +46,9 @@
     "description": "FT8, FT4, JT65, MSK144 et autres modes faible signal.",
     "license": "Open source",
     "homepage": "https://wsjt.sourceforge.io/wsjtx.html",
-    "install": { "method": "page" }
+    "install": {
+      "method": "page"
+    }
   },
   {
     "id": "js8call",
@@ -47,7 +57,9 @@
     "description": "Messagerie et relais en mode JS8, basé sur la technologie de WSJT-X.",
     "license": "Open source",
     "homepage": "https://js8call.com/",
-    "install": { "method": "page" }
+    "install": {
+      "method": "page"
+    }
   },
   {
     "id": "fldigi",
@@ -56,7 +68,9 @@
     "description": "Modem multi-modes (PSK, RTTY, Olivia, MFSK…) pour la carte son.",
     "license": "Open source",
     "homepage": "https://sourceforge.net/projects/fldigi/files/fldigi/",
-    "install": { "method": "page" }
+    "install": {
+      "method": "page"
+    }
   },
   {
     "id": "flmsg",
@@ -65,7 +79,9 @@
     "description": "Formulaires et messages structurés, compagnon de fldigi.",
     "license": "Open source",
     "homepage": "https://sourceforge.net/projects/fldigi/files/flmsg/",
-    "install": { "method": "page" }
+    "install": {
+      "method": "page"
+    }
   },
   {
     "id": "varahf",
@@ -74,7 +90,9 @@
     "description": "Modem HF rapide, utilisé avec Winlink Express.",
     "license": "Shareware",
     "homepage": "https://rosmodem.wordpress.com/",
-    "install": { "method": "page" }
+    "install": {
+      "method": "page"
+    }
   },
   {
     "id": "varafm",
@@ -83,7 +101,9 @@
     "description": "Modem VHF/UHF pour liaisons FM, utilisé avec Winlink Express.",
     "license": "Shareware",
     "homepage": "https://rosmodem.wordpress.com/",
-    "install": { "method": "page" }
+    "install": {
+      "method": "page"
+    }
   },
   {
     "id": "varasat",
@@ -92,7 +112,9 @@
     "description": "Modem VARA pour liaisons satellite.",
     "license": "Shareware",
     "homepage": "https://rosmodem.wordpress.com/",
-    "install": { "method": "page" }
+    "install": {
+      "method": "page"
+    }
   },
   {
     "id": "winlink",
@@ -101,7 +123,9 @@
     "description": "Client e-mail radio du réseau Winlink.",
     "license": "Gratuit",
     "homepage": "https://winlink.org/WinlinkExpress",
-    "install": { "method": "page" }
+    "install": {
+      "method": "page"
+    }
   },
   {
     "id": "flrig",
@@ -110,7 +134,9 @@
     "description": "Contrôle CAT des transceivers, compagnon de fldigi.",
     "license": "Open source",
     "homepage": "https://sourceforge.net/projects/fldigi/files/flrig/",
-    "install": { "method": "page" }
+    "install": {
+      "method": "page"
+    }
   },
   {
     "id": "waveloggate",
@@ -120,8 +146,11 @@
     "license": "Open source",
     "homepage": "https://github.com/wavelog/WaveLogGate",
     "github": "wavelog/WaveLogGate",
-    "asset_regex": "\\.exe$",
-    "install": { "method": "github", "silent_args": "" }
+    "asset_regex": "windows-amd64.*\\.exe$",
+    "install": {
+      "method": "github",
+      "silent_args": ""
+    }
   },
   {
     "id": "wavelog",
