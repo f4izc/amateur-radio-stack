@@ -1,4 +1,59 @@
 {
+  "adswill/OnAir": {
+    "tag": "v3.8.0",
+    "url": "https://github.com/adswill/OnAir/releases/tag/v3.8.0",
+    "date": "2026-11-10T17:48:42Z",
+    "assets": [
+      {
+        "name": "OnAir-3.8.0-android.apk",
+        "url": "https://github.com/adswill/OnAir/releases/download/v3.8.0/OnAir-3.8.0-android.apk"
+      },
+      {
+        "name": "onair-3.8.0-linux-aarch64-portable.tar.gz",
+        "url": "https://github.com/adswill/OnAir/releases/download/v3.8.0/onair-3.8.0-linux-aarch64-portable.tar.gz"
+      },
+      {
+        "name": "OnAir-3.8.0-linux-aarch64.AppImage",
+        "url": "https://github.com/adswill/OnAir/releases/download/v3.8.0/OnAir-3.8.0-linux-aarch64.AppImage"
+      },
+      {
+        "name": "onair-3.8.0-linux-x86_64-portable.tar.gz",
+        "url": "https://github.com/adswill/OnAir/releases/download/v3.8.0/onair-3.8.0-linux-x86_64-portable.tar.gz"
+      },
+      {
+        "name": "OnAir-3.8.0-linux-x86_64.AppImage",
+        "url": "https://github.com/adswill/OnAir/releases/download/v3.8.0/OnAir-3.8.0-linux-x86_64.AppImage"
+      },
+      {
+        "name": "OnAir-3.8.0-macos-arm64.dmg",
+        "url": "https://github.com/adswill/OnAir/releases/download/v3.8.0/OnAir-3.8.0-macos-arm64.dmg"
+      },
+      {
+        "name": "OnAir-3.8.0-macos-x86_64.dmg",
+        "url": "https://github.com/adswill/OnAir/releases/download/v3.8.0/OnAir-3.8.0-macos-x86_64.dmg"
+      },
+      {
+        "name": "OnAir-3.8.0-windows-x64-setup.exe",
+        "url": "https://github.com/adswill/OnAir/releases/download/v3.8.0/OnAir-3.8.0-windows-x64-setup.exe"
+      },
+      {
+        "name": "OnAir-3.8.0-windows-x64.zip",
+        "url": "https://github.com/adswill/OnAir/releases/download/v3.8.0/OnAir-3.8.0-windows-x64.zip"
+      },
+      {
+        "name": "onair_3.8.0_amd64.deb",
+        "url": "https://github.com/adswill/OnAir/releases/download/v3.8.0/onair_3.8.0_amd64.deb"
+      },
+      {
+        "name": "onair_3.8.0_arm64.deb",
+        "url": "https://github.com/adswill/OnAir/releases/download/v3.8.0/onair_3.8.0_arm64.deb"
+      },
+      {
+        "name": "SHA256SUMS",
+        "url": "https://github.com/adswill/OnAir/releases/download/v3.8.0/SHA256SUMS"
+      }
+    ]
+  },
   "f4exb/sdrangel": {
     "tag": "v8.1.0",
     "url": "https://github.com/f4exb/sdrangel/releases/tag/v8.1.0",
@@ -35,6 +90,33 @@
       {
         "name": "sdrangel_8.1.0_ubuntu-26.04_arm64.deb",
         "url": "https://github.com/f4exb/sdrangel/releases/download/v8.1.0/sdrangel_8.1.0_ubuntu-26.04_arm64.deb"
+      }
+    ]
+  },
+  "freedv/freedv-gui": {
+    "tag": "v2.4.1",
+    "url": "https://github.com/freedv/freedv-gui/releases/tag/v2.4.1",
+    "date": "2026-10-31T00:59:38Z",
+    "assets": [
+      {
+        "name": "FreeDV-2.4.1-aarch64.AppImage",
+        "url": "https://github.com/freedv/freedv-gui/releases/download/v2.4.1/FreeDV-2.4.1-aarch64.AppImage"
+      },
+      {
+        "name": "FreeDV-2.4.1-windows-aarch64.exe",
+        "url": "https://github.com/freedv/freedv-gui/releases/download/v2.4.1/FreeDV-2.4.1-windows-aarch64.exe"
+      },
+      {
+        "name": "FreeDV-2.4.1-windows-x86_64.exe",
+        "url": "https://github.com/freedv/freedv-gui/releases/download/v2.4.1/FreeDV-2.4.1-windows-x86_64.exe"
+      },
+      {
+        "name": "FreeDV-2.4.1-x86_64.AppImage",
+        "url": "https://github.com/freedv/freedv-gui/releases/download/v2.4.1/FreeDV-2.4.1-x86_64.AppImage"
+      },
+      {
+        "name": "FreeDV-2.4.1.dmg",
+        "url": "https://github.com/freedv/freedv-gui/releases/download/v2.4.1/FreeDV-2.4.1.dmg"
       }
     ]
   },
