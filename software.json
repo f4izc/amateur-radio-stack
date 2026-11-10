@@ -40,6 +40,20 @@
     }
   },
   {
+    "id": "onair",
+    "name": "OnAir",
+    "category": "SDR et récepteurs",
+    "description": "Récepteur SDR tout-en-un : TV, radio, avions, bateaux, satellites, pagers… (191 modes).",
+    "license": "Open source",
+    "homepage": "https://github.com/adswill/OnAir",
+    "github": "adswill/OnAir",
+    "asset_regex": "windows-x64-setup\\.exe$",
+    "install": {
+      "method": "github",
+      "silent_args": ""
+    }
+  },
+  {
     "id": "wsjtx",
     "name": "WSJT-X",
     "category": "Modes numériques",
@@ -81,6 +95,20 @@
     "homepage": "https://sourceforge.net/projects/fldigi/files/flmsg/",
     "install": {
       "method": "page"
+    }
+  },
+  {
+    "id": "freedv",
+    "name": "FreeDV",
+    "category": "Modes numériques",
+    "description": "Voix numérique sur HF, basée sur le codec Codec2 (logiciel libre).",
+    "license": "Open source",
+    "homepage": "https://freedv.org/",
+    "github": "freedv/freedv-gui",
+    "asset_regex": "windows-x86_64\\.exe$",
+    "install": {
+      "method": "github",
+      "silent_args": ""
     }
   },
   {
@@ -150,6 +178,28 @@
     "install": {
       "method": "github",
       "silent_args": ""
+    }
+  },
+  {
+    "id": "vbcable",
+    "name": "VB-Audio Virtual Cable",
+    "category": "Audio et pilotes",
+    "description": "Câble audio virtuel : relie la sortie audio d’un logiciel à l’entrée d’un autre (modems, décodeurs…).",
+    "license": "Donationware",
+    "homepage": "https://vb-audio.com/Cable/",
+    "install": {
+      "method": "page"
+    }
+  },
+  {
+    "id": "worldmap",
+    "name": "Simon's World Map",
+    "category": "Propagation et cartes",
+    "description": "Carte du monde pour le DX : ligne grise, lever et coucher du soleil, stations DX, aurores.",
+    "license": "Gratuit",
+    "homepage": "https://www.sdr-radio.com/world-map",
+    "install": {
+      "method": "page"
     }
   },
   {

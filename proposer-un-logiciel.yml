@@ -1,0 +1,42 @@
+name: Proposer un logiciel
+description: Suggérer l’ajout d’un logiciel à la liste
+title: "[Ajout] "
+labels: ["ajout"]
+body:
+  - type: input
+    id: nom
+    attributes:
+      label: Nom du logiciel
+    validations:
+      required: true
+  - type: input
+    id: lien
+    attributes:
+      label: Lien officiel (site ou dépôt)
+    validations:
+      required: true
+  - type: dropdown
+    id: categorie
+    attributes:
+      label: Catégorie
+      options:
+        - SDR et récepteurs
+        - Modes numériques
+        - Modems et Winlink
+        - Contrôle et log
+        - Audio et pilotes
+        - Propagation et cartes
+        - Webtools (PHP, Docker, web)
+        - Autre
+    validations:
+      required: true
+  - type: input
+    id: licence
+    attributes:
+      label: Licence (gratuit, open source, shareware…)
+  - type: textarea
+    id: pourquoi
+    attributes:
+      label: À quoi sert-il, en une ou deux phrases ?
+    validations:
+      required: true
