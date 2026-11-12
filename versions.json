@@ -1,56 +1,56 @@
 {
   "adswill/OnAir": {
-    "tag": "v3.8.0",
-    "url": "https://github.com/adswill/OnAir/releases/tag/v3.8.0",
-    "date": "2026-11-10T17:48:42Z",
+    "tag": "v3.9.0",
+    "url": "https://github.com/adswill/OnAir/releases/tag/v3.9.0",
+    "date": "2026-11-11T15:43:01Z",
     "assets": [
       {
-        "name": "OnAir-3.8.0-android.apk",
-        "url": "https://github.com/adswill/OnAir/releases/download/v3.8.0/OnAir-3.8.0-android.apk"
+        "name": "OnAir-3.9.0-android.apk",
+        "url": "https://github.com/adswill/OnAir/releases/download/v3.9.0/OnAir-3.9.0-android.apk"
       },
       {
-        "name": "onair-3.8.0-linux-aarch64-portable.tar.gz",
-        "url": "https://github.com/adswill/OnAir/releases/download/v3.8.0/onair-3.8.0-linux-aarch64-portable.tar.gz"
+        "name": "onair-3.9.0-linux-aarch64-portable.tar.gz",
+        "url": "https://github.com/adswill/OnAir/releases/download/v3.9.0/onair-3.9.0-linux-aarch64-portable.tar.gz"
       },
       {
-        "name": "OnAir-3.8.0-linux-aarch64.AppImage",
-        "url": "https://github.com/adswill/OnAir/releases/download/v3.8.0/OnAir-3.8.0-linux-aarch64.AppImage"
+        "name": "OnAir-3.9.0-linux-aarch64.AppImage",
+        "url": "https://github.com/adswill/OnAir/releases/download/v3.9.0/OnAir-3.9.0-linux-aarch64.AppImage"
       },
       {
-        "name": "onair-3.8.0-linux-x86_64-portable.tar.gz",
-        "url": "https://github.com/adswill/OnAir/releases/download/v3.8.0/onair-3.8.0-linux-x86_64-portable.tar.gz"
+        "name": "onair-3.9.0-linux-x86_64-portable.tar.gz",
+        "url": "https://github.com/adswill/OnAir/releases/download/v3.9.0/onair-3.9.0-linux-x86_64-portable.tar.gz"
       },
       {
-        "name": "OnAir-3.8.0-linux-x86_64.AppImage",
-        "url": "https://github.com/adswill/OnAir/releases/download/v3.8.0/OnAir-3.8.0-linux-x86_64.AppImage"
+        "name": "OnAir-3.9.0-linux-x86_64.AppImage",
+        "url": "https://github.com/adswill/OnAir/releases/download/v3.9.0/OnAir-3.9.0-linux-x86_64.AppImage"
       },
       {
-        "name": "OnAir-3.8.0-macos-arm64.dmg",
-        "url": "https://github.com/adswill/OnAir/releases/download/v3.8.0/OnAir-3.8.0-macos-arm64.dmg"
+        "name": "OnAir-3.9.0-macos-arm64.dmg",
+        "url": "https://github.com/adswill/OnAir/releases/download/v3.9.0/OnAir-3.9.0-macos-arm64.dmg"
       },
       {
-        "name": "OnAir-3.8.0-macos-x86_64.dmg",
-        "url": "https://github.com/adswill/OnAir/releases/download/v3.8.0/OnAir-3.8.0-macos-x86_64.dmg"
+        "name": "OnAir-3.9.0-macos-x86_64.dmg",
+        "url": "https://github.com/adswill/OnAir/releases/download/v3.9.0/OnAir-3.9.0-macos-x86_64.dmg"
       },
       {
-        "name": "OnAir-3.8.0-windows-x64-setup.exe",
-        "url": "https://github.com/adswill/OnAir/releases/download/v3.8.0/OnAir-3.8.0-windows-x64-setup.exe"
+        "name": "OnAir-3.9.0-windows-x64-setup.exe",
+        "url": "https://github.com/adswill/OnAir/releases/download/v3.9.0/OnAir-3.9.0-windows-x64-setup.exe"
       },
       {
-        "name": "OnAir-3.8.0-windows-x64.zip",
-        "url": "https://github.com/adswill/OnAir/releases/download/v3.8.0/OnAir-3.8.0-windows-x64.zip"
+        "name": "OnAir-3.9.0-windows-x64.zip",
+        "url": "https://github.com/adswill/OnAir/releases/download/v3.9.0/OnAir-3.9.0-windows-x64.zip"
       },
       {
-        "name": "onair_3.8.0_amd64.deb",
-        "url": "https://github.com/adswill/OnAir/releases/download/v3.8.0/onair_3.8.0_amd64.deb"
+        "name": "onair_3.9.0_amd64.deb",
+        "url": "https://github.com/adswill/OnAir/releases/download/v3.9.0/onair_3.9.0_amd64.deb"
       },
       {
-        "name": "onair_3.8.0_arm64.deb",
-        "url": "https://github.com/adswill/OnAir/releases/download/v3.8.0/onair_3.8.0_arm64.deb"
+        "name": "onair_3.9.0_arm64.deb",
+        "url": "https://github.com/adswill/OnAir/releases/download/v3.9.0/onair_3.9.0_arm64.deb"
       },
       {
         "name": "SHA256SUMS",
-        "url": "https://github.com/adswill/OnAir/releases/download/v3.8.0/SHA256SUMS"
+        "url": "https://github.com/adswill/OnAir/releases/download/v3.9.0/SHA256SUMS"
       }
     ]
   },
@@ -196,5 +196,5 @@
     "date": "2026-11-07T08:26:53Z",
     "assets": []
   },
-  "_updated": "2026-11-11"
+  "_updated": "2026-11-12"
 }
