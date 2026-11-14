@@ -55,41 +55,49 @@
     ]
   },
   "f4exb/sdrangel": {
-    "tag": "v8.1.0",
-    "url": "https://github.com/f4exb/sdrangel/releases/tag/v8.1.0",
-    "date": "2026-11-08T18:26:17Z",
+    "tag": "v8.2.0",
+    "url": "https://github.com/f4exb/sdrangel/releases/tag/v8.2.0",
+    "date": "2026-11-13T18:44:47Z",
     "assets": [
       {
-        "name": "sdrangel-8.1.0-mac-15.8.2_arm64.dmg",
-        "url": "https://github.com/f4exb/sdrangel/releases/download/v8.1.0/sdrangel-8.1.0-mac-15.8.2_arm64.dmg"
+        "name": "sdrangel-8.2.0-android.apk",
+        "url": "https://github.com/f4exb/sdrangel/releases/download/v8.2.0/sdrangel-8.2.0-android.apk"
       },
       {
-        "name": "sdrangel-8.1.0-win64.exe",
-        "url": "https://github.com/f4exb/sdrangel/releases/download/v8.1.0/sdrangel-8.1.0-win64.exe"
+        "name": "sdrangel-8.2.0-win64.exe",
+        "url": "https://github.com/f4exb/sdrangel/releases/download/v8.2.0/sdrangel-8.2.0-win64.exe"
       },
       {
-        "name": "sdrangel-8.1.0-x86_64.flatpak",
-        "url": "https://github.com/f4exb/sdrangel/releases/download/v8.1.0/sdrangel-8.1.0-x86_64.flatpak"
+        "name": "sdrangel-8.2.0-x86_64.flatpak",
+        "url": "https://github.com/f4exb/sdrangel/releases/download/v8.2.0/sdrangel-8.2.0-x86_64.flatpak"
       },
       {
-        "name": "sdrangel_8.1.0_amd64.snap",
-        "url": "https://github.com/f4exb/sdrangel/releases/download/v8.1.0/sdrangel_8.1.0_amd64.snap"
+        "name": "sdrangel-8.2.0_mac-15.7.9_x86_64.dmg",
+        "url": "https://github.com/f4exb/sdrangel/releases/download/v8.2.0/sdrangel-8.2.0_mac-15.7.9_x86_64.dmg"
       },
       {
-        "name": "sdrangel_8.1.0_ubuntu-22.04_amd64.deb",
-        "url": "https://github.com/f4exb/sdrangel/releases/download/v8.1.0/sdrangel_8.1.0_ubuntu-22.04_amd64.deb"
+        "name": "sdrangel-8.2.0_mac-15.8.2_arm64.dmg",
+        "url": "https://github.com/f4exb/sdrangel/releases/download/v8.2.0/sdrangel-8.2.0_mac-15.8.2_arm64.dmg"
       },
       {
-        "name": "sdrangel_8.1.0_ubuntu-24.04_amd64.deb",
-        "url": "https://github.com/f4exb/sdrangel/releases/download/v8.1.0/sdrangel_8.1.0_ubuntu-24.04_amd64.deb"
+        "name": "sdrangel_8.2.0_amd64.snap",
+        "url": "https://github.com/f4exb/sdrangel/releases/download/v8.2.0/sdrangel_8.2.0_amd64.snap"
       },
       {
-        "name": "sdrangel_8.1.0_ubuntu-26.04_amd64.deb",
-        "url": "https://github.com/f4exb/sdrangel/releases/download/v8.1.0/sdrangel_8.1.0_ubuntu-26.04_amd64.deb"
+        "name": "sdrangel_8.2.0_ubuntu-22.04_amd64.deb",
+        "url": "https://github.com/f4exb/sdrangel/releases/download/v8.2.0/sdrangel_8.2.0_ubuntu-22.04_amd64.deb"
       },
       {
-        "name": "sdrangel_8.1.0_ubuntu-26.04_arm64.deb",
-        "url": "https://github.com/f4exb/sdrangel/releases/download/v8.1.0/sdrangel_8.1.0_ubuntu-26.04_arm64.deb"
+        "name": "sdrangel_8.2.0_ubuntu-24.04_amd64.deb",
+        "url": "https://github.com/f4exb/sdrangel/releases/download/v8.2.0/sdrangel_8.2.0_ubuntu-24.04_amd64.deb"
+      },
+      {
+        "name": "sdrangel_8.2.0_ubuntu-26.04_amd64.deb",
+        "url": "https://github.com/f4exb/sdrangel/releases/download/v8.2.0/sdrangel_8.2.0_ubuntu-26.04_amd64.deb"
+      },
+      {
+        "name": "sdrangel_8.2.0_ubuntu-26.04_arm64.deb",
+        "url": "https://github.com/f4exb/sdrangel/releases/download/v8.2.0/sdrangel_8.2.0_ubuntu-26.04_arm64.deb"
       }
     ]
   },
@@ -196,5 +204,5 @@
     "date": "2026-11-07T08:26:53Z",
     "assets": []
   },
-  "_updated": "2026-11-13"
+  "_updated": "2026-11-14"
 }
