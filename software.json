@@ -65,6 +65,17 @@
     }
   },
   {
+    "id": "ws",
+    "name": "WS (Digital Mode Suite)",
+    "category": "Modes numériques",
+    "description": "Suite de modes numériques FT8, FT4 et autres, évolution de WSJT-X Improved (ex WSJT-X Enhanced).",
+    "license": "Open source",
+    "homepage": "https://ws-suite.sourceforge.io/",
+    "install": {
+      "method": "page"
+    }
+  },
+  {
     "id": "js8call",
     "name": "JS8Call",
     "category": "Modes numériques",
