@@ -24,6 +24,8 @@ body:
         - Modes numériques
         - Modems et Winlink
         - Contrôle et log
+        - Audio et pilotes
+        - Propagation et cartes
         - Webtools (PHP, Docker, web)
         - Autre
     validations:
