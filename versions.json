@@ -1,56 +1,56 @@
 {
   "adswill/OnAir": {
-    "tag": "v4.2.0",
-    "url": "https://github.com/adswill/OnAir/releases/tag/v4.2.0",
-    "date": "2026-11-15T20:01:59Z",
+    "tag": "v4.3.0",
+    "url": "https://github.com/adswill/OnAir/releases/tag/v4.3.0",
+    "date": "2026-11-17T11:19:09Z",
     "assets": [
       {
-        "name": "OnAir-4.2.0-android.apk",
-        "url": "https://github.com/adswill/OnAir/releases/download/v4.2.0/OnAir-4.2.0-android.apk"
+        "name": "OnAir-4.3.0-android.apk",
+        "url": "https://github.com/adswill/OnAir/releases/download/v4.3.0/OnAir-4.3.0-android.apk"
       },
       {
-        "name": "onair-4.2.0-linux-aarch64-portable.tar.gz",
-        "url": "https://github.com/adswill/OnAir/releases/download/v4.2.0/onair-4.2.0-linux-aarch64-portable.tar.gz"
+        "name": "onair-4.3.0-linux-aarch64-portable.tar.gz",
+        "url": "https://github.com/adswill/OnAir/releases/download/v4.3.0/onair-4.3.0-linux-aarch64-portable.tar.gz"
       },
       {
-        "name": "OnAir-4.2.0-linux-aarch64.AppImage",
-        "url": "https://github.com/adswill/OnAir/releases/download/v4.2.0/OnAir-4.2.0-linux-aarch64.AppImage"
+        "name": "OnAir-4.3.0-linux-aarch64.AppImage",
+        "url": "https://github.com/adswill/OnAir/releases/download/v4.3.0/OnAir-4.3.0-linux-aarch64.AppImage"
       },
       {
-        "name": "onair-4.2.0-linux-x86_64-portable.tar.gz",
-        "url": "https://github.com/adswill/OnAir/releases/download/v4.2.0/onair-4.2.0-linux-x86_64-portable.tar.gz"
+        "name": "onair-4.3.0-linux-x86_64-portable.tar.gz",
+        "url": "https://github.com/adswill/OnAir/releases/download/v4.3.0/onair-4.3.0-linux-x86_64-portable.tar.gz"
       },
       {
-        "name": "OnAir-4.2.0-linux-x86_64.AppImage",
-        "url": "https://github.com/adswill/OnAir/releases/download/v4.2.0/OnAir-4.2.0-linux-x86_64.AppImage"
+        "name": "OnAir-4.3.0-linux-x86_64.AppImage",
+        "url": "https://github.com/adswill/OnAir/releases/download/v4.3.0/OnAir-4.3.0-linux-x86_64.AppImage"
       },
       {
-        "name": "OnAir-4.2.0-macos-arm64.dmg",
-        "url": "https://github.com/adswill/OnAir/releases/download/v4.2.0/OnAir-4.2.0-macos-arm64.dmg"
+        "name": "OnAir-4.3.0-macos-arm64.dmg",
+        "url": "https://github.com/adswill/OnAir/releases/download/v4.3.0/OnAir-4.3.0-macos-arm64.dmg"
       },
       {
-        "name": "OnAir-4.2.0-macos-x86_64.dmg",
-        "url": "https://github.com/adswill/OnAir/releases/download/v4.2.0/OnAir-4.2.0-macos-x86_64.dmg"
+        "name": "OnAir-4.3.0-macos-x86_64.dmg",
+        "url": "https://github.com/adswill/OnAir/releases/download/v4.3.0/OnAir-4.3.0-macos-x86_64.dmg"
       },
       {
-        "name": "OnAir-4.2.0-windows-x64-setup.exe",
-        "url": "https://github.com/adswill/OnAir/releases/download/v4.2.0/OnAir-4.2.0-windows-x64-setup.exe"
+        "name": "OnAir-4.3.0-windows-x64-setup.exe",
+        "url": "https://github.com/adswill/OnAir/releases/download/v4.3.0/OnAir-4.3.0-windows-x64-setup.exe"
       },
       {
-        "name": "OnAir-4.2.0-windows-x64.zip",
-        "url": "https://github.com/adswill/OnAir/releases/download/v4.2.0/OnAir-4.2.0-windows-x64.zip"
+        "name": "OnAir-4.3.0-windows-x64.zip",
+        "url": "https://github.com/adswill/OnAir/releases/download/v4.3.0/OnAir-4.3.0-windows-x64.zip"
       },
       {
-        "name": "onair_4.2.0_amd64.deb",
-        "url": "https://github.com/adswill/OnAir/releases/download/v4.2.0/onair_4.2.0_amd64.deb"
+        "name": "onair_4.3.0_amd64.deb",
+        "url": "https://github.com/adswill/OnAir/releases/download/v4.3.0/onair_4.3.0_amd64.deb"
       },
       {
-        "name": "onair_4.2.0_arm64.deb",
-        "url": "https://github.com/adswill/OnAir/releases/download/v4.2.0/onair_4.2.0_arm64.deb"
+        "name": "onair_4.3.0_arm64.deb",
+        "url": "https://github.com/adswill/OnAir/releases/download/v4.3.0/onair_4.3.0_arm64.deb"
       },
       {
         "name": "SHA256SUMS",
-        "url": "https://github.com/adswill/OnAir/releases/download/v4.2.0/SHA256SUMS"
+        "url": "https://github.com/adswill/OnAir/releases/download/v4.3.0/SHA256SUMS"
       }
     ]
   },
@@ -68,8 +68,8 @@
         "url": "https://github.com/f4exb/sdrangel/releases/download/v8.2.0/sdrangel-8.2.0-x86_64.flatpak"
       },
       {
-        "name": "sdrangel-8.2.0.1-android.apk",
-        "url": "https://github.com/f4exb/sdrangel/releases/download/v8.2.0/sdrangel-8.2.0.1-android.apk"
+        "name": "sdrangel-8.2.0.2-android.apk",
+        "url": "https://github.com/f4exb/sdrangel/releases/download/v8.2.0/sdrangel-8.2.0.2-android.apk"
       },
       {
         "name": "sdrangel-8.2.0_mac-15.7.9_x86_64.dmg",
@@ -204,5 +204,5 @@
     "date": "2026-11-07T08:26:53Z",
     "assets": []
   },
-  "_updated": "2026-11-16"
+  "_updated": "2026-11-17"
 }
