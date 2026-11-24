@@ -1,56 +1,56 @@
 {
   "adswill/OnAir": {
-    "tag": "v4.5.0",
-    "url": "https://github.com/adswill/OnAir/releases/tag/v4.5.0",
-    "date": "2026-11-22T12:08:52Z",
+    "tag": "v4.6.0",
+    "url": "https://github.com/adswill/OnAir/releases/tag/v4.6.0",
+    "date": "2026-11-24T06:53:23Z",
     "assets": [
       {
-        "name": "OnAir-4.5.0-android.apk",
-        "url": "https://github.com/adswill/OnAir/releases/download/v4.5.0/OnAir-4.5.0-android.apk"
+        "name": "OnAir-4.6.0-android.apk",
+        "url": "https://github.com/adswill/OnAir/releases/download/v4.6.0/OnAir-4.6.0-android.apk"
       },
       {
-        "name": "onair-4.5.0-linux-aarch64-portable.tar.gz",
-        "url": "https://github.com/adswill/OnAir/releases/download/v4.5.0/onair-4.5.0-linux-aarch64-portable.tar.gz"
+        "name": "onair-4.6.0-linux-aarch64-portable.tar.gz",
+        "url": "https://github.com/adswill/OnAir/releases/download/v4.6.0/onair-4.6.0-linux-aarch64-portable.tar.gz"
       },
       {
-        "name": "OnAir-4.5.0-linux-aarch64.AppImage",
-        "url": "https://github.com/adswill/OnAir/releases/download/v4.5.0/OnAir-4.5.0-linux-aarch64.AppImage"
+        "name": "OnAir-4.6.0-linux-aarch64.AppImage",
+        "url": "https://github.com/adswill/OnAir/releases/download/v4.6.0/OnAir-4.6.0-linux-aarch64.AppImage"
       },
       {
-        "name": "onair-4.5.0-linux-x86_64-portable.tar.gz",
-        "url": "https://github.com/adswill/OnAir/releases/download/v4.5.0/onair-4.5.0-linux-x86_64-portable.tar.gz"
+        "name": "onair-4.6.0-linux-x86_64-portable.tar.gz",
+        "url": "https://github.com/adswill/OnAir/releases/download/v4.6.0/onair-4.6.0-linux-x86_64-portable.tar.gz"
       },
       {
-        "name": "OnAir-4.5.0-linux-x86_64.AppImage",
-        "url": "https://github.com/adswill/OnAir/releases/download/v4.5.0/OnAir-4.5.0-linux-x86_64.AppImage"
+        "name": "OnAir-4.6.0-linux-x86_64.AppImage",
+        "url": "https://github.com/adswill/OnAir/releases/download/v4.6.0/OnAir-4.6.0-linux-x86_64.AppImage"
       },
       {
-        "name": "OnAir-4.5.0-macos-arm64.dmg",
-        "url": "https://github.com/adswill/OnAir/releases/download/v4.5.0/OnAir-4.5.0-macos-arm64.dmg"
+        "name": "OnAir-4.6.0-macos-arm64.dmg",
+        "url": "https://github.com/adswill/OnAir/releases/download/v4.6.0/OnAir-4.6.0-macos-arm64.dmg"
       },
       {
-        "name": "OnAir-4.5.0-macos-x86_64.dmg",
-        "url": "https://github.com/adswill/OnAir/releases/download/v4.5.0/OnAir-4.5.0-macos-x86_64.dmg"
+        "name": "OnAir-4.6.0-macos-x86_64.dmg",
+        "url": "https://github.com/adswill/OnAir/releases/download/v4.6.0/OnAir-4.6.0-macos-x86_64.dmg"
       },
       {
-        "name": "OnAir-4.5.0-windows-x64-setup.exe",
-        "url": "https://github.com/adswill/OnAir/releases/download/v4.5.0/OnAir-4.5.0-windows-x64-setup.exe"
+        "name": "OnAir-4.6.0-windows-x64-setup.exe",
+        "url": "https://github.com/adswill/OnAir/releases/download/v4.6.0/OnAir-4.6.0-windows-x64-setup.exe"
       },
       {
-        "name": "OnAir-4.5.0-windows-x64.zip",
-        "url": "https://github.com/adswill/OnAir/releases/download/v4.5.0/OnAir-4.5.0-windows-x64.zip"
+        "name": "OnAir-4.6.0-windows-x64.zip",
+        "url": "https://github.com/adswill/OnAir/releases/download/v4.6.0/OnAir-4.6.0-windows-x64.zip"
       },
       {
-        "name": "onair_4.5.0_amd64.deb",
-        "url": "https://github.com/adswill/OnAir/releases/download/v4.5.0/onair_4.5.0_amd64.deb"
+        "name": "onair_4.6.0_amd64.deb",
+        "url": "https://github.com/adswill/OnAir/releases/download/v4.6.0/onair_4.6.0_amd64.deb"
       },
       {
-        "name": "onair_4.5.0_arm64.deb",
-        "url": "https://github.com/adswill/OnAir/releases/download/v4.5.0/onair_4.5.0_arm64.deb"
+        "name": "onair_4.6.0_arm64.deb",
+        "url": "https://github.com/adswill/OnAir/releases/download/v4.6.0/onair_4.6.0_arm64.deb"
       },
       {
         "name": "SHA256SUMS",
-        "url": "https://github.com/adswill/OnAir/releases/download/v4.5.0/SHA256SUMS"
+        "url": "https://github.com/adswill/OnAir/releases/download/v4.6.0/SHA256SUMS"
       }
     ]
   },
@@ -204,5 +204,5 @@
     "date": "2026-11-07T08:26:53Z",
     "assets": []
   },
-  "_updated": "2026-11-23"
+  "_updated": "2026-11-24"
 }
